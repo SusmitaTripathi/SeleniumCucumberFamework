@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.731 s <<< FAILURE! -- in TestSuite
+runnerFiles.TestNGRunner.runScenario["Search experience for product search in home and offer page", "Search and place the order for products"](2) -- Time elapsed: 7.135 s <<< FAILURE!
+java.lang.AssertionError: expected [No data] but found [Beetroot]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.OfferPageStepDefinitions.user_verifies_if_product_exists(OfferPageStepDefinitions.java:28)
+	at ✽.User verifies if product exists(file:///C:/Users/Susmita%20Tripathi/eclipse-workspace/CucumberFramework/src/test/java/features/searchFeature.feature:8)
+
